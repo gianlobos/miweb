@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.listarda{ /*aliniamiento default*/
+    display: flex;
+    justify-content: center; /*aliniamiento horizontral*/
+    align-items: flex-start; /*aliniamiento vertical*/
+    background-color: blueviolet;
+    height: 50vh;
+}
+
+.listarda li{
+    background-color: aquamarine;
+    margin: 0em 3em;
+    height: 25vh;
+    
+}
+
+.listarda2{ /*aliniamiento default  */
+    display: flex;
+    flex-direction: column; /* modifica el funcionamiento del content e items*/
+    justify-content: center; /*aliniamiento vertical*/
+    align-items: center; /*aliniamiento horizontal*/
+    background-color:brown;
+    height: 50vh;
+}
+
+.listarda2 li{
+    background-color:darkgreen;
+    margin: 1em;
+    width: 50%;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+ 
+    background-color: gold;
+    height: 50vh;
+
+}
+
+.cuadrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    height: 25vh;
+    width: 25vh;
+    margin-top: 3em; /*modifica a la parte exterior de un contenedor*/
+    padding: 10px;
+    color: white;
+
+}
